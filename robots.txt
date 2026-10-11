@@ -1,0 +1,3 @@
+Sitemap: https://compiler.toolaska.com/sitemap.xml
+User-agent: *
+Disallow:

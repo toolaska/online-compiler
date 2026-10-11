@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://compiler.toolaska.com/#webapp",
+      "name": "Online Code Editor & Compiler",
+      "alternateName": "Toolaska Compiler",
+      "url": "https://compiler.toolaska.com/",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Any",
+      "description": "Free online code editor and compiler to run HTML, CSS, and JavaScript instantly. Write, test, and debug code with real-time preview — no setup required.",
+      "browserRequirements": "Requires JavaScript. Works in Chrome, Firefox, Safari, Edge, and all modern web browsers.",
+      "codeRepository": "https://github.com/toolaska/online-compiler",
+      "image": "https://compiler.toolaska.com/assets/favicon-32x32.png",
+      "screenshot": "https://compiler.toolaska.com/assets/favicon-32x32.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Toolaska",
+        "url": "https://toolaska.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Toolaska",
+        "url": "https://toolaska.com/"
+      },
+      "featureList": [
+        "Real-time live code preview for HTML, CSS, and JavaScript",
+        "In-browser TypeScript compilation and instant execution",
+        "Interactive multi-pane IDE editor with syntax highlighting",
+        "Integrated console panel capturing logs, errors, and warnings",
+        "Responsive device viewport switcher (Desktop, Tablet, Mobile preview)",
+        "One-click code formatting and beautification",
+        "Zero-setup client-side isolated sandbox execution",
+        "Download project files and instant snippet sharing",
+        "Dark and light theme support",
+        "100% privacy with no remote code uploads"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://toolaska.com/#organization",
+      "name": "Toolaska",
+      "url": "https://toolaska.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://toolaska.com/logo.webp"
+      },
+      "sameAs": [
+        "https://compiler.toolaska.com",
+        "https://json.toolaska.com",
+        "https://diff.toolaska.com",
+        "https://github.com/toolaska/online-compiler",
+        "https://github.com/toolaska"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "info@toolaska.com",
+        "url": "https://compiler.toolaska.com/about-us"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://compiler.toolaska.com/#website",
+      "url": "https://compiler.toolaska.com/",
+      "name": "Toolaska Compiler",
+      "description": "Free online code editor and compiler to run HTML, CSS, and JavaScript instantly. Write, test, and debug code with real-time preview — no setup required.",
+      "publisher": {
+        "@id": "https://toolaska.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://compiler.toolaska.com/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I run HTML, CSS, and JavaScript code online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open compiler.toolaska.com, write or paste your HTML, CSS, and JavaScript into the respective editor panels, and see the output render instantly in the real-time live preview window without refreshing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Quick Compiler support TypeScript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Quick Compiler includes in-browser TypeScript compilation, allowing you to write typed JavaScript code and execute it immediately without configuring local tsconfig or Node.js build pipelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my code executed securely and kept private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quick Compiler runs all code in an isolated, sandboxed browser iframe on your local machine. No code is transmitted to, compiled on, or stored in remote cloud servers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I test responsive mobile and tablet layouts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Quick Compiler includes a viewport switcher that simulates desktop, tablet, and mobile dimensions so you can test responsive CSS Grid, Flexbox, and media queries instantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to sign up or install any software?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Quick Compiler is 100% free with instant access and requires no installation, dependencies, account creation, or payment."
+          }
+        }
+      ]
+    }
+  ]
+}
